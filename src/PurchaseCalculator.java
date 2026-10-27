@@ -12,6 +12,8 @@ public class PurchaseCalculator {
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US);
 
+        SelfCheck.run();
+
         System.out.println("=== Калькулятор закупки (Вариант 7: НДС 40%) ===");
 
         int quantity = getIntInput(scanner, "Введите количество единиц (1 - 10000):");
